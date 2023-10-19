@@ -30,6 +30,11 @@ export type SignatureDefinitionContainer = {
   [key: string]: SignatureDefinition;
 }
 
+export interface Signature {
+  type: string;
+  definitions: SignatureDefinitionContainer;
+}
+
 export type EnrichContainerFunction = (
   type: string,
   container: SignatureDefinitionContainer,

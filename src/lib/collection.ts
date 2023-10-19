@@ -5,6 +5,7 @@ import {
   Descriptions,
   EnrichContainerFunction,
   GetDefinitionsFunction,
+  Signature,
   SignatureDefinition,
   SignatureDefinitionContainer
 } from '../types';
@@ -100,6 +101,15 @@ export class Collection {
     });
 
     return this;
+  }
+
+  getAllSignatures(): Signature[] {
+    return Array.from(this.signatures.entries()).map(([type, definitions]) => {
+      return {
+        type,
+        definitions
+      };
+    });
   }
 
   getSignaturesByType(type: string): SignatureDefinitionContainer | null {
