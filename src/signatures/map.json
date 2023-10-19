@@ -1,0 +1,91 @@
+{
+    "remove": {
+        "arguments": [
+            {
+                "label": "key",
+                "type": "string"
+            }
+        ],
+        "returns": [
+            "null"
+        ]
+    },
+    "push": {
+        "arguments": [
+            {
+                "label": "key",
+                "type": "string"
+            }
+        ],
+        "returns": [
+            "map:any"
+        ]
+    },
+    "pop": {
+        "returns": [
+            "string"
+        ]
+    },
+    "shuffle": {
+        "returns": [
+            "null"
+        ]
+    },
+    "sum": {
+        "returns": [
+            "number"
+        ]
+    },
+    "hasIndex": {
+        "arguments": [
+            {
+                "label": "key",
+                "type": "string"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "indexOf": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "any"
+        ]
+    },
+    "indexes": {
+        "returns": [
+            "list:string"
+        ]
+    },
+    "len": {
+        "returns": [
+            "number"
+        ]
+    },
+    "values": {
+        "returns": [
+            "list:any"
+        ]
+    },
+    "replace": {
+        "arguments": [
+            {
+                "label": "toReplace",
+                "type": "any"
+            },
+            {
+                "label": "newValue",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "map:any"
+        ]
+    }
+}

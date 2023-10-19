@@ -1,0 +1,706 @@
+{
+    "hasIndex": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "any"
+            },
+            {
+                "label": "index",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "print": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "any",
+                "default": "\"\""
+            },
+            {
+                "label": "delimiter",
+                "type": "string",
+                "opt": true
+            }
+        ],
+        "returns": [
+            "null"
+        ]
+    },
+    "indexes": {
+        "arguments": [
+            {
+                "label": "self",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "list:any",
+            "null"
+        ]
+    },
+    "values": {
+        "arguments": [
+            {
+                "label": "self",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "list:any"
+        ]
+    },
+    "indexOf": {
+        "arguments": [
+            {
+                "label": "self",
+                "type": "any"
+            },
+            {
+                "label": "value",
+                "type": "any"
+            },
+            {
+                "label": "after",
+                "type": "any",
+                "opt": true
+            }
+        ],
+        "returns": [
+            "any"
+        ]
+    },
+    "len": {
+        "arguments": [
+            {
+                "label": "self",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "number",
+            "null"
+        ]
+    },
+    "shuffle": {
+        "arguments": [
+            {
+                "label": "self",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "null"
+        ]
+    },
+    "val": {
+        "arguments": [
+            {
+                "label": "self",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "number",
+            "null"
+        ]
+    },
+    "lower": {
+        "arguments": [
+            {
+                "label": "self",
+                "type": "string"
+            }
+        ],
+        "returns": [
+            "string"
+        ]
+    },
+    "upper": {
+        "arguments": [
+            {
+                "label": "self",
+                "type": "string"
+            }
+        ],
+        "returns": [
+            "string"
+        ]
+    },
+    "sum": {
+        "arguments": [
+            {
+                "label": "self",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "pop": {
+        "arguments": [
+            {
+                "label": "self",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "any"
+        ]
+    },
+    "pull": {
+        "arguments": [
+            {
+                "label": "self",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "any"
+        ]
+    },
+    "push": {
+        "arguments": [
+            {
+                "label": "self",
+                "type": "any"
+            },
+            {
+                "label": "value",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "any"
+        ]
+    },
+    "sort": {
+        "arguments": [
+            {
+                "label": "self",
+                "type": "any"
+            },
+            {
+                "label": "byKey",
+                "type": "any"
+            },
+            {
+                "label": "ascending",
+                "type": "boolean",
+                "opt": true
+            }
+        ],
+        "returns": [
+            "any"
+        ]
+    },
+    "remove": {
+        "arguments": [
+            {
+                "label": "self",
+                "type": "any"
+            },
+            {
+                "label": "key",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "any"
+        ]
+    },
+    "wait": {
+        "arguments": [
+            {
+                "label": "delay",
+                "type": "number",
+                "default": "1"
+            }
+        ],
+        "returns": [
+            "null"
+        ]
+    },
+    "bitwise": {
+        "arguments": [
+            {
+                "label": "operator",
+                "type": "string"
+            },
+            {
+                "label": "left",
+                "type": "number"
+            },
+            {
+                "label": "right",
+                "type": "number"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "abs": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "number",
+                "default": "0"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "acos": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "number",
+                "default": "0"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "asin": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "number",
+                "default": "0"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "atan": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "number",
+                "default": "0"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "tan": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "number",
+                "default": "0"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "cos": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "number",
+                "default": "0"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "code": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "string"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "char": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "number",
+                "default": "65"
+            }
+        ],
+        "returns": [
+            "string"
+        ]
+    },
+    "sin": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "number",
+                "default": "0"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "floor": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "number",
+                "default": "0"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "range": {
+        "arguments": [
+            {
+                "label": "start",
+                "type": "number",
+                "default": "0"
+            },
+            {
+                "label": "end",
+                "type": "number",
+                "default": "0"
+            },
+            {
+                "label": "inc",
+                "type": "number",
+                "opt": true
+            }
+        ],
+        "returns": [
+            "list:number"
+        ]
+    },
+    "round": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "number",
+                "default": "0"
+            },
+            {
+                "label": "fixed",
+                "type": "number",
+                "default": "0"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "rnd": {
+        "arguments": [
+            {
+                "label": "seed",
+                "type": "number"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "sign": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "number",
+                "default": "0"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "sqrt": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "number",
+                "default": "0"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "str": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "number"
+            }
+        ],
+        "returns": [
+            "string"
+        ]
+    },
+    "ceil": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "number"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "pi": {
+        "returns": [
+            "number"
+        ]
+    },
+    "slice": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "any"
+            },
+            {
+                "label": "from",
+                "type": "number",
+                "opt": true
+            },
+            {
+                "label": "to",
+                "type": "number",
+                "opt": true
+            }
+        ],
+        "returns": [
+            "list:any"
+        ]
+    },
+    "hash": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "time": {
+        "returns": [
+            "number"
+        ]
+    },
+    "bitAnd": {
+        "arguments": [
+            {
+                "label": "a",
+                "type": "number"
+            },
+            {
+                "label": "b",
+                "type": "number"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "bitOr": {
+        "arguments": [
+            {
+                "label": "a",
+                "type": "number"
+            },
+            {
+                "label": "b",
+                "type": "number"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "bitXor": {
+        "arguments": [
+            {
+                "label": "a",
+                "type": "number"
+            },
+            {
+                "label": "b",
+                "type": "number"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "log": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "number"
+            },
+            {
+                "label": "base",
+                "type": "number",
+                "default": "10"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "yield": {
+        "returns": [
+            "null"
+        ]
+    },
+    "insert": {
+        "arguments": [
+            {
+                "label": "object",
+                "type": "any"
+            },
+            {
+                "label": "index",
+                "type": "number"
+            },
+            {
+                "label": "value",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "any"
+        ]
+    },
+    "to_int": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "string"
+            }
+        ],
+        "returns": [
+            "string",
+            "number"
+        ]
+    },
+    "join": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "list:any"
+            },
+            {
+                "label": "delimiter",
+                "type": "string"
+            }
+        ],
+        "returns": [
+            "string"
+        ]
+    },
+    "split": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "string"
+            },
+            {
+                "label": "delimiter",
+                "type": "string"
+            }
+        ],
+        "returns": [
+            "list:string"
+        ]
+    },
+    "replace": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "any"
+            },
+            {
+                "label": "toReplace",
+                "type": "any"
+            },
+            {
+                "label": "newValue",
+                "type": "any"
+            },
+            {
+                "label": "maxCount",
+                "type": "number",
+                "opt": true
+            }
+        ],
+        "returns": [
+            "any"
+        ]
+    },
+    "funcRef": {
+        "returns": [
+            "map:any"
+        ]
+    },
+    "list": {
+        "returns": [
+            "map:any"
+        ]
+    },
+    "map": {
+        "returns": [
+            "map:any"
+        ]
+    },
+    "number": {
+        "returns": [
+            "map:any"
+        ]
+    },
+    "string": {
+        "returns": [
+            "map:any"
+        ]
+    },
+    "refEquals": {
+        "arguments": [
+            {
+                "label": "a",
+                "type": "any"
+            },
+            {
+                "label": "b",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "stackTrace": {
+        "returns": [
+            "list:string"
+        ]
+    },
+    "version": {
+        "returns": [
+            "map:any"
+        ]
+    }
+}

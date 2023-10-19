@@ -1,0 +1,139 @@
+{
+    "remove": {
+        "arguments": [
+            {
+                "label": "index",
+                "type": "number"
+            }
+        ],
+        "returns": [
+            "null"
+        ]
+    },
+    "insert": {
+        "arguments": [
+            {
+                "label": "index",
+                "type": "number"
+            },
+            {
+                "label": "value",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "list:any"
+        ]
+    },
+    "push": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "list:any"
+        ]
+    },
+    "pop": {
+        "returns": [
+            "any"
+        ]
+    },
+    "pull": {
+        "returns": [
+            "any"
+        ]
+    },
+    "shuffle": {
+        "returns": [
+            "null"
+        ]
+    },
+    "sum": {
+        "returns": [
+            "number"
+        ]
+    },
+    "hasIndex": {
+        "arguments": [
+            {
+                "label": "index",
+                "type": "number"
+            }
+        ],
+        "returns": [
+            "number"
+        ]
+    },
+    "indexOf": {
+        "arguments": [
+            {
+                "label": "value",
+                "type": "any"
+            },
+            {
+                "label": "offset",
+                "type": "number",
+                "opt": true
+            }
+        ],
+        "returns": [
+            "number",
+            "null"
+        ]
+    },
+    "sort": {
+        "arguments": [
+            {
+                "label": "key",
+                "type": "string"
+            }
+        ],
+        "returns": [
+            "list:any"
+        ]
+    },
+    "join": {
+        "arguments": [
+            {
+                "label": "delimiter",
+                "type": "string"
+            }
+        ],
+        "returns": [
+            "string"
+        ]
+    },
+    "indexes": {
+        "returns": [
+            "list:number"
+        ]
+    },
+    "len": {
+        "returns": [
+            "number"
+        ]
+    },
+    "values": {
+        "returns": [
+            "list:any"
+        ]
+    },
+    "replace": {
+        "arguments": [
+            {
+                "label": "toReplace",
+                "type": "any"
+            },
+            {
+                "label": "newValue",
+                "type": "any"
+            }
+        ],
+        "returns": [
+            "list:any"
+        ]
+    }
+}
