@@ -30,67 +30,67 @@
             "any"
         ]
       },
-      "hasIndex": {
-        "arguments": [
-            {
-                "label": "value",
-                "type": "any"
-            }
-        ],
-        "returns": [
-            "number"
-        ]
-      },
-      "remove": {
-        "arguments": [
-            {
-                "label": "value",
-                "type": "any"
-            }
-        ],
-        "returns": [
-            "null"
-        ]
-      },
-      "push": {
-        "arguments": [
-            {
-                "label": "value",
-                "type": "any"
-            }
-        ],
+    "hasIndex": {
+    "arguments": [
+        {
+            "label": "value",
+            "type": "any"
+        }
+    ],
+    "returns": [
+        "number"
+    ]
+    },
+    "remove": {
+    "arguments": [
+        {
+            "label": "value",
+            "type": "any"
+        }
+    ],
+    "returns": [
+        "null"
+    ]
+    },
+    "push": {
+    "arguments": [
+        {
+            "label": "value",
+            "type": "any"
+        }
+    ],
+    "returns": [
+        "any"
+    ]
+    },
+    "pop": {
         "returns": [
             "any"
         ]
-      },
-      "pop": {
-          "returns": [
-              "any"
-          ]
-      },
-      "shuffle": {
-          "returns": [
-              "null"
-          ]
-      },
-      "sum": {
-          "returns": [
-              "number"
-          ]
-      },
-      "indexes": {
+    },
+    "shuffle": {
+        "returns": [
+            "null"
+        ]
+    },
+    "sum": {
+        "returns": [
+            "number"
+        ]
+    },
+    "indexes": {
+    "returns": [
+        "list:any"
+    ]
+    },
+    "len": {
+        "returns": [
+            "number"
+        ]
+    },
+    "values": {
         "returns": [
             "list:any"
         ]
-      },
-      "len": {
-          "returns": [
-              "number"
-          ]
-      },
-      "values": {
-          "returns": [
-              "list:any"
-          ]
-      }
+    }
 }

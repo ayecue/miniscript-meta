@@ -226,25 +226,6 @@
             "null"
         ]
     },
-    "bitwise": {
-        "arguments": [
-            {
-                "label": "operator",
-                "type": "string"
-            },
-            {
-                "label": "left",
-                "type": "number"
-            },
-            {
-                "label": "right",
-                "type": "number"
-            }
-        ],
-        "returns": [
-            "number"
-        ]
-    },
     "abs": {
         "arguments": [
             {
@@ -585,18 +566,6 @@
         ],
         "returns": [
             "any"
-        ]
-    },
-    "to_int": {
-        "arguments": [
-            {
-                "label": "value",
-                "type": "string"
-            }
-        ],
-        "returns": [
-            "string",
-            "number"
         ]
     },
     "join": {

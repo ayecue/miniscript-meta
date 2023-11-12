@@ -389,13 +389,6 @@
             "print(\"List with inserted item: \" + list.join(\", \"))"
         ]
     },
-    "to_int": {
-        "description": "Returns a `number` which is parsed from the `string` as an integer. In case the `string` is not numeric it will return the original `string`.",
-        "example": [
-            "myString = \"1\"",
-            "print(to_int(myString) + 41)"
-        ]
-    },
     "join": {
         "description": "Returns a concatenated `string` containing all stringified values inside the `list`. These values will be separated via the provided separator.",
         "example": [
@@ -422,5 +415,14 @@
             "newString = replace(myString, \"wrong\", \"right\")",
             "print(newString)"
         ]
+    },
+    "refEquals": {
+        "description": "Tests whether two values refer to the very same object (rather than merely representing the same value).  For numbers, this is the same as ==, but for strings, lists, and maps, it is reference equality."
+    },
+    "version": {
+        "description": "Get a map with information about the version of MiniScript and the host environment that you're currently running.  This will include at least the following keys:\n\tminiscript: a string such as \"1.5\"\n\tbuildDate: a date in yyyy-mm-dd format, like \"2020-05-28\"\n\thost: a number for the host major and minor version, like 0.9\n\thostName: name of the host application, e.g. \"Mini Micro\"\n\thostInfo: URL or other short info about the host app"
+    },
+    "stackTrace": {
+        "description": "Get a list describing the call stack."
     }
 }
