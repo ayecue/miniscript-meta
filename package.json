@@ -1,6 +1,6 @@
 {
     "name": "miniscript-meta",
-    "version": "0.3.4",
+    "version": "0.3.5",
     "description": "Meta description for MiniScript API",
     "main": "dist/index",
     "typings": "dist/index",
