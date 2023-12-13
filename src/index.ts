@@ -11,7 +11,9 @@ import String from './signatures/string.json';
 export const miniscriptMeta = new Collection();
 
 miniscriptMeta.addSignature('any', Any);
-miniscriptMeta.addSignature('general', Generic);
+miniscriptMeta.addSignature('general', Generic, {
+  isInternalType: true
+});
 miniscriptMeta.addSignature('list', List);
 miniscriptMeta.addSignature('map', MapSignature);
 miniscriptMeta.addSignature('number', NumberSignature);
