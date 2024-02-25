@@ -20,11 +20,6 @@
                 "label": "value",
                 "type": "any",
                 "default": "\"\""
-            },
-            {
-                "label": "delimiter",
-                "type": "string",
-                "opt": true
             }
         ],
         "returns": [
