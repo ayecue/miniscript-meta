@@ -1,4 +1,4 @@
-import { Collection } from 'meta-utils';
+import { Container } from 'meta-utils';
 
 import EN from './descriptions/en/index';
 import Any from './signatures/any.json';
@@ -7,16 +7,16 @@ import List from './signatures/list.json';
 import MapSignature from './signatures/map.json';
 import NumberSignature from './signatures/number.json';
 import String from './signatures/string.json';
+import Version from './signatures/version.json';
 
-export const miniscriptMeta = new Collection();
+export const miniscriptMeta = new Container();
 
-miniscriptMeta.addSignature('any', Any);
-miniscriptMeta.addSignature('general', Generic, {
-  isInternalType: true
-});
-miniscriptMeta.addSignature('list', List);
-miniscriptMeta.addSignature('map', MapSignature);
-miniscriptMeta.addSignature('number', NumberSignature);
-miniscriptMeta.addSignature('string', String);
+miniscriptMeta.addTypeSignatureFromPayload(Any);
+miniscriptMeta.addTypeSignatureFromPayload(Generic);
+miniscriptMeta.addTypeSignatureFromPayload(List);
+miniscriptMeta.addTypeSignatureFromPayload(MapSignature);
+miniscriptMeta.addTypeSignatureFromPayload(NumberSignature);
+miniscriptMeta.addTypeSignatureFromPayload(String);
+miniscriptMeta.addTypeSignatureFromPayload(Version);
 
-miniscriptMeta.addMeta('en', EN);
+miniscriptMeta.addMetaFromPayload('en', EN);
