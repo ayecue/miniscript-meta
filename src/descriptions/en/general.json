@@ -421,5 +421,63 @@
   },
   "stackTrace": {
     "description": "Get a list describing the call stack."
+  },
+  "funcRef": {
+    "description": "Returns a `map` which enables to extend function references with custom methods.",
+    "example": [
+      "funcRef.signature = function",
+      "   return str(@self)",
+      "end function",
+      "print (@print).signature"
+    ]
+  },
+  "list": {
+    "description": "Returns a `map` which enables to extend list types with custom methods.",
+    "example": [
+      "list.map = function(callback)",
+      "   newList = []",
+      "   for item in self",
+      "      newList.push(callback(item, __item_idx))",
+      "   end for",
+      "   return newList",
+      "end function",
+      "myMapFunction = function(item, index)",
+      "   print \"Mapping value at index: \" + index",
+      "   return item.myValue",
+      "end function",
+      "print [{ \"myValue\": 24 }].map(@myMapFunction)"
+    ]
+  },
+  "number": {
+    "description": "Returns a `map` which enables to extend number types with custom methods.",
+    "example": [
+      "number.add = function(right)",
+      "  return self + right",
+      "end function",
+      "print (1234).add(1)"
+    ]
+  },
+  "string": {
+    "description": "Returns a `map` which enables to extend string types with custom methods.",
+    "example": [
+      "string.color = function(colorValue = \"red\")",
+      "  return \"<color=\" + colorValue + \">\" + self + \"</color>\"",
+      "end function",
+      "print \"My text: \".color + \"Hello world\".color(\"yellow\")"
+    ]
+  },
+  "map": {
+    "description": "Returns a `map` which enables to extend map types with custom methods.",
+    "example": [
+      "map.extend = function(value)",
+      "  for item in value",
+      "    self[item.key] = item.value",
+      "  end for",
+      "  return self",
+      "end function",
+      "test = {\"123\":123}",
+      "test.extend({\"bar\": \"foo\"})",
+      "print \"My extended value: \" + test.bar"
+    ]
   }
 }
