@@ -229,7 +229,7 @@
     ]
   },
   "range": {
-    "description": "Returns a `list` where each item is a `number`. By default, the `list` starts with the `number` zero and increments by one for each item. Optionally start and end can be defined. Additionally, the incremental value can be changed as well. In case the incremental value is zero this function will throw a runtime error.",
+    "description": "Generates a `list` where each item is a `number`. By default, if only one argument is provided, the list starts at the given value and decrements by one for each item. You can optionally define a start and end value, as well as customize the incremental value. In case the incremental value is zero this function will throw a runtime error.",
     "example": [
       "print(\"Countdown:\")",
       "for num in range(10)",
