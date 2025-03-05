@@ -2,6 +2,7 @@
   "type": "string",
   "definitions": {
     "remove": {
+      "id": "remove",
       "type": "function",
       "arguments": [
         {
@@ -14,6 +15,7 @@
       ]
     },
     "hasIndex": {
+      "id": "hasIndex",
       "type": "function",
       "arguments": [
         {
@@ -26,6 +28,7 @@
       ]
     },
     "insert": {
+      "id": "insert",
       "type": "function",
       "arguments": [
         {
@@ -42,6 +45,7 @@
       ]
     },
     "indexOf": {
+      "id": "indexOf",
       "type": "function",
       "arguments": [
         {
@@ -60,6 +64,7 @@
       ]
     },
     "split": {
+      "id": "split",
       "type": "function",
       "arguments": [
         {
@@ -87,6 +92,7 @@
       ]
     },
     "replace": {
+      "id": "replace",
       "type": "function",
       "arguments": [
         {
@@ -108,6 +114,7 @@
       ]
     },
     "indexes": {
+      "id": "indexes",
       "type": "function",
       "returns": [
         {
@@ -117,36 +124,42 @@
       ]
     },
     "code": {
+      "id": "code",
       "type": "function",
       "returns": [
         "number"
       ]
     },
     "len": {
+      "id": "len",
       "type": "function",
       "returns": [
         "number"
       ]
     },
     "lower": {
+      "id": "lower",
       "type": "function",
       "returns": [
         "string"
       ]
     },
     "upper": {
+      "id": "upper",
       "type": "function",
       "returns": [
         "string"
       ]
     },
     "val": {
+      "id": "val",
       "type": "function",
       "returns": [
         "number"
       ]
     },
     "values": {
+      "id": "values",
       "type": "function",
       "returns": [
         {
