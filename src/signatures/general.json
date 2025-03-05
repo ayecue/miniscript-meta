@@ -2,6 +2,7 @@
   "type": "general",
   "definitions": {
     "hasIndex": {
+      "id": "hasIndex",
       "type": "function",
       "arguments": [
         {
@@ -23,6 +24,7 @@
       ]
     },
     "print": {
+      "id": "print",
       "type": "function",
       "arguments": [
         {
@@ -44,6 +46,7 @@
       ]
     },
     "indexes": {
+      "id": "indexes",
       "type": "function",
       "arguments": [
         {
@@ -61,6 +64,7 @@
       ]
     },
     "values": {
+      "id": "values",
       "type": "function",
       "arguments": [
         {
@@ -77,6 +81,7 @@
       ]
     },
     "indexOf": {
+      "id": "indexOf",
       "type": "function",
       "arguments": [
         {
@@ -103,6 +108,7 @@
       ]
     },
     "len": {
+      "id": "len",
       "type": "function",
       "arguments": [
         {
@@ -120,6 +126,7 @@
       ]
     },
     "shuffle": {
+      "id": "shuffle",
       "type": "function",
       "arguments": [
         {
@@ -135,6 +142,7 @@
       ]
     },
     "val": {
+      "id": "val",
       "type": "function",
       "arguments": [
         {
@@ -148,6 +156,7 @@
       ]
     },
     "lower": {
+      "id": "lower",
       "type": "function",
       "arguments": [
         {
@@ -160,6 +169,7 @@
       ]
     },
     "upper": {
+      "id": "upper",
       "type": "function",
       "arguments": [
         {
@@ -172,6 +182,7 @@
       ]
     },
     "sum": {
+      "id": "sum",
       "type": "function",
       "arguments": [
         {
@@ -187,6 +198,7 @@
       ]
     },
     "pop": {
+      "id": "pop",
       "type": "function",
       "arguments": [
         {
@@ -203,6 +215,7 @@
       ]
     },
     "pull": {
+      "id": "pull",
       "type": "function",
       "arguments": [
         {
@@ -219,6 +232,7 @@
       ]
     },
     "push": {
+      "id": "push",
       "type": "function",
       "arguments": [
         {
@@ -240,6 +254,7 @@
       ]
     },
     "sort": {
+      "id": "sort",
       "type": "function",
       "arguments": [
         {
@@ -265,6 +280,7 @@
       ]
     },
     "remove": {
+      "id": "remove",
       "type": "function",
       "arguments": [
         {
@@ -287,6 +303,7 @@
       ]
     },
     "wait": {
+      "id": "wait",
       "type": "function",
       "arguments": [
         {
@@ -303,6 +320,7 @@
       ]
     },
     "abs": {
+      "id": "abs",
       "type": "function",
       "arguments": [
         {
@@ -319,6 +337,7 @@
       ]
     },
     "acos": {
+      "id": "acos",
       "type": "function",
       "arguments": [
         {
@@ -335,6 +354,7 @@
       ]
     },
     "asin": {
+      "id": "asin",
       "type": "function",
       "arguments": [
         {
@@ -351,6 +371,7 @@
       ]
     },
     "atan": {
+      "id": "atan",
       "type": "function",
       "arguments": [
         {
@@ -375,6 +396,7 @@
       ]
     },
     "tan": {
+      "id": "tan",
       "type": "function",
       "arguments": [
         {
@@ -391,6 +413,7 @@
       ]
     },
     "cos": {
+      "id": "cos",
       "type": "function",
       "arguments": [
         {
@@ -407,6 +430,7 @@
       ]
     },
     "code": {
+      "id": "code",
       "type": "function",
       "arguments": [
         {
@@ -419,6 +443,7 @@
       ]
     },
     "char": {
+      "id": "char",
       "type": "function",
       "arguments": [
         {
@@ -435,6 +460,7 @@
       ]
     },
     "sin": {
+      "id": "sin",
       "type": "function",
       "arguments": [
         {
@@ -451,6 +477,7 @@
       ]
     },
     "floor": {
+      "id": "floor",
       "type": "function",
       "arguments": [
         {
@@ -467,6 +494,7 @@
       ]
     },
     "range": {
+      "id": "range",
       "type": "function",
       "arguments": [
         {
@@ -499,6 +527,7 @@
       ]
     },
     "round": {
+      "id": "round",
       "type": "function",
       "arguments": [
         {
@@ -523,6 +552,7 @@
       ]
     },
     "rnd": {
+      "id": "rnd",
       "type": "function",
       "arguments": [
         {
@@ -536,6 +566,7 @@
       ]
     },
     "sign": {
+      "id": "sign",
       "type": "function",
       "arguments": [
         {
@@ -552,6 +583,7 @@
       ]
     },
     "sqrt": {
+      "id": "sqrt",
       "type": "function",
       "arguments": [
         {
@@ -568,6 +600,7 @@
       ]
     },
     "str": {
+      "id": "str",
       "type": "function",
       "arguments": [
         {
@@ -580,6 +613,7 @@
       ]
     },
     "ceil": {
+      "id": "ceil",
       "type": "function",
       "arguments": [
         {
@@ -596,12 +630,14 @@
       ]
     },
     "pi": {
+      "id": "pi",
       "type": "function",
       "returns": [
         "number"
       ]
     },
     "slice": {
+      "id": "slice",
       "type": "function",
       "arguments": [
         {
@@ -631,6 +667,7 @@
       ]
     },
     "hash": {
+      "id": "hash",
       "type": "function",
       "arguments": [
         {
@@ -643,12 +680,14 @@
       ]
     },
     "time": {
+      "id": "time",
       "type": "function",
       "returns": [
         "number"
       ]
     },
     "bitAnd": {
+      "id": "bitAnd",
       "type": "function",
       "arguments": [
         {
@@ -673,6 +712,7 @@
       ]
     },
     "bitOr": {
+      "id": "bitOr",
       "type": "function",
       "arguments": [
         {
@@ -697,6 +737,7 @@
       ]
     },
     "bitXor": {
+      "id": "bitXor",
       "type": "function",
       "arguments": [
         {
@@ -721,6 +762,7 @@
       ]
     },
     "log": {
+      "id": "log",
       "type": "function",
       "arguments": [
         {
@@ -745,12 +787,14 @@
       ]
     },
     "yield": {
+      "id": "yield",
       "type": "function",
       "returns": [
         "null"
       ]
     },
     "insert": {
+      "id": "insert",
       "type": "function",
       "arguments": [
         {
@@ -775,6 +819,7 @@
       ]
     },
     "join": {
+      "id": "join",
       "type": "function",
       "arguments": [
         {
@@ -795,6 +840,7 @@
       ]
     },
     "split": {
+      "id": "split",
       "type": "function",
       "arguments": [
         {
@@ -826,6 +872,7 @@
       ]
     },
     "replace": {
+      "id": "replace",
       "type": "function",
       "arguments": [
         {
@@ -857,6 +904,7 @@
       ]
     },
     "funcRef": {
+      "id": "funcRef",
       "type": "function",
       "returns": [
         {
@@ -866,6 +914,7 @@
       ]
     },
     "list": {
+      "id": "list",
       "type": "function",
       "returns": [
         {
@@ -875,6 +924,7 @@
       ]
     },
     "map": {
+      "id": "map",
       "type": "function",
       "returns": [
         {
@@ -884,6 +934,7 @@
       ]
     },
     "number": {
+      "id": "number",
       "type": "function",
       "returns": [
         {
@@ -893,6 +944,7 @@
       ]
     },
     "string": {
+      "id": "string",
       "type": "function",
       "returns": [
         {
@@ -902,6 +954,7 @@
       ]
     },
     "refEquals": {
+      "id": "refEquals",
       "type": "function",
       "arguments": [
         {
@@ -918,6 +971,7 @@
       ]
     },
     "stackTrace": {
+      "id": "stackTrace",
       "type": "function",
       "returns": [
         {
@@ -927,6 +981,7 @@
       ]
     },
     "version": {
+      "id": "version",
       "type": "function",
       "returns": [
         "version"
