@@ -4,6 +4,9 @@
     "remove": {
       "id": "remove",
       "type": "function",
+      "tags": [
+        "method"
+      ],
       "arguments": [
         {
           "label": "key",
@@ -17,6 +20,9 @@
     "push": {
       "id": "push",
       "type": "function",
+      "tags": [
+        "method"
+      ],
       "arguments": [
         {
           "label": "key",
@@ -30,6 +36,9 @@
     "pull": {
       "id": "pull",
       "type": "function",
+      "tags": [
+        "method"
+      ],
       "returns": [
         "any"
       ]
@@ -37,6 +46,9 @@
     "pop": {
       "id": "pop",
       "type": "function",
+      "tags": [
+        "method"
+      ],
       "returns": [
         "any"
       ]
@@ -44,6 +56,9 @@
     "shuffle": {
       "id": "shuffle",
       "type": "function",
+      "tags": [
+        "method"
+      ],
       "returns": [
         "null"
       ]
@@ -51,6 +66,9 @@
     "sum": {
       "id": "sum",
       "type": "function",
+      "tags": [
+        "method"
+      ],
       "returns": [
         "number"
       ]
@@ -58,6 +76,9 @@
     "hasIndex": {
       "id": "hasIndex",
       "type": "function",
+      "tags": [
+        "method"
+      ],
       "arguments": [
         {
           "label": "key",
@@ -71,6 +92,9 @@
     "indexOf": {
       "id": "indexOf",
       "type": "function",
+      "tags": [
+        "method"
+      ],
       "arguments": [
         {
           "label": "value",
@@ -90,6 +114,9 @@
     "indexes": {
       "id": "indexes",
       "type": "function",
+      "tags": [
+        "method"
+      ],
       "returns": [
         "list"
       ]
@@ -97,6 +124,9 @@
     "len": {
       "id": "len",
       "type": "function",
+      "tags": [
+        "method"
+      ],
       "returns": [
         "number"
       ]
@@ -104,6 +134,9 @@
     "values": {
       "id": "values",
       "type": "function",
+      "tags": [
+        "method"
+      ],
       "returns": [
         "list"
       ]
@@ -111,6 +144,9 @@
     "replace": {
       "id": "replace",
       "type": "function",
+      "tags": [
+        "method"
+      ],
       "arguments": [
         {
           "label": "oldVal",

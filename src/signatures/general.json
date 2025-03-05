@@ -4,6 +4,9 @@
     "hasIndex": {
       "id": "hasIndex",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -26,6 +29,9 @@
     "print": {
       "id": "print",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "value",
@@ -48,6 +54,9 @@
     "indexes": {
       "id": "indexes",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -66,6 +75,9 @@
     "values": {
       "id": "values",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -83,6 +95,9 @@
     "indexOf": {
       "id": "indexOf",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -110,6 +125,9 @@
     "len": {
       "id": "len",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -128,6 +146,9 @@
     "shuffle": {
       "id": "shuffle",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -144,6 +165,9 @@
     "val": {
       "id": "val",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -158,6 +182,9 @@
     "lower": {
       "id": "lower",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -171,6 +198,9 @@
     "upper": {
       "id": "upper",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -184,6 +214,9 @@
     "sum": {
       "id": "sum",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -200,6 +233,9 @@
     "pop": {
       "id": "pop",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -217,6 +253,9 @@
     "pull": {
       "id": "pull",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -234,6 +273,9 @@
     "push": {
       "id": "push",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -256,6 +298,9 @@
     "sort": {
       "id": "sort",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -282,6 +327,9 @@
     "remove": {
       "id": "remove",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -305,6 +353,9 @@
     "wait": {
       "id": "wait",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "seconds",
@@ -322,6 +373,9 @@
     "abs": {
       "id": "abs",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "value",
@@ -339,6 +393,9 @@
     "acos": {
       "id": "acos",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "value",
@@ -356,6 +413,9 @@
     "asin": {
       "id": "asin",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "value",
@@ -373,6 +433,9 @@
     "atan": {
       "id": "atan",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "y",
@@ -398,6 +461,9 @@
     "tan": {
       "id": "tan",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "radians",
@@ -415,6 +481,9 @@
     "cos": {
       "id": "cos",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "radians",
@@ -432,6 +501,9 @@
     "code": {
       "id": "code",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "value",
@@ -445,6 +517,9 @@
     "char": {
       "id": "char",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "codePoint",
@@ -462,6 +537,9 @@
     "sin": {
       "id": "sin",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "radians",
@@ -479,6 +557,9 @@
     "floor": {
       "id": "floor",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "x",
@@ -496,6 +577,9 @@
     "range": {
       "id": "range",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "start",
@@ -529,6 +613,9 @@
     "round": {
       "id": "round",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "x",
@@ -554,6 +641,9 @@
     "rnd": {
       "id": "rnd",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "seed",
@@ -568,6 +658,9 @@
     "sign": {
       "id": "sign",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "x",
@@ -585,6 +678,9 @@
     "sqrt": {
       "id": "sqrt",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "x",
@@ -602,6 +698,9 @@
     "str": {
       "id": "str",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "value",
@@ -615,6 +714,9 @@
     "ceil": {
       "id": "ceil",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "x",
@@ -632,6 +734,9 @@
     "pi": {
       "id": "pi",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "returns": [
         "number"
       ]
@@ -639,6 +744,9 @@
     "slice": {
       "id": "slice",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "seq",
@@ -669,6 +777,9 @@
     "hash": {
       "id": "hash",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "value",
@@ -682,6 +793,9 @@
     "time": {
       "id": "time",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "returns": [
         "number"
       ]
@@ -689,6 +803,9 @@
     "bitAnd": {
       "id": "bitAnd",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "a",
@@ -714,6 +831,9 @@
     "bitOr": {
       "id": "bitOr",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "a",
@@ -739,6 +859,9 @@
     "bitXor": {
       "id": "bitXor",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "a",
@@ -764,6 +887,9 @@
     "log": {
       "id": "log",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "value",
@@ -789,6 +915,9 @@
     "yield": {
       "id": "yield",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "returns": [
         "null"
       ]
@@ -796,6 +925,9 @@
     "insert": {
       "id": "insert",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -821,6 +953,9 @@
     "join": {
       "id": "join",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -842,6 +977,9 @@
     "split": {
       "id": "split",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -874,6 +1012,9 @@
     "replace": {
       "id": "replace",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "self",
@@ -906,6 +1047,9 @@
     "funcRef": {
       "id": "funcRef",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "returns": [
         {
           "type": "map",
@@ -916,6 +1060,9 @@
     "list": {
       "id": "list",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "returns": [
         {
           "type": "map",
@@ -926,6 +1073,9 @@
     "map": {
       "id": "map",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "returns": [
         {
           "type": "map",
@@ -936,6 +1086,9 @@
     "number": {
       "id": "number",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "returns": [
         {
           "type": "map",
@@ -946,6 +1099,9 @@
     "string": {
       "id": "string",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "returns": [
         {
           "type": "map",
@@ -956,6 +1112,9 @@
     "refEquals": {
       "id": "refEquals",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "arguments": [
         {
           "label": "a",
@@ -973,6 +1132,9 @@
     "stackTrace": {
       "id": "stackTrace",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "returns": [
         {
           "type": "list",
@@ -983,6 +1145,9 @@
     "version": {
       "id": "version",
       "type": "function",
+      "tags": [
+        "function"
+      ],
       "returns": [
         "version"
       ]
