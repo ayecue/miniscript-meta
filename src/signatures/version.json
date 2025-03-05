@@ -3,19 +3,24 @@
   "extends": "map",
   "definitions": {
     "miniscript": {
-      "type": "string"
+      "type": "string",
+      "tags": []
     },
     "buildDate": {
-      "type": "string"
+      "type": "string",
+      "tags": []
     },
     "host": {
-      "type": "number"
+      "type": "number",
+      "tags": []
     },
     "hostName": {
-      "type": "string"
+      "type": "string",
+      "tags": []
     },
     "hostInfo": {
-      "type": "string"
+      "type": "string",
+      "tags": []
     }
   }
 }
